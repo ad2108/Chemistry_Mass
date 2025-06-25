@@ -131,10 +131,10 @@ so4_2 = Molecule([sulfur, oxygen, oxygen_1], [1, 2, 2])
 #this Ion as a negative charge, because 2 oxygens have 1 electron more
 #this makes the Ion negative
 
-ionized_water = Substance([IM.Water(), so4_2], [98.3 ,1.7])
+water_with_ions = Substance([IM.Water(), so4_2], [98.3 ,1.7])
 #this is water that contains 98.3% water and 1.7% SO4-2 Ions
 
-ionized_water.mass() #returns 18.424428743986702
-ionized_water.charge() #returns -2
+water_with_ions.mass() #returns 18.424428743986702
+water_with_ions.charge() #returns -2
 ```
 
